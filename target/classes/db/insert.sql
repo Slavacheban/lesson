@@ -2,99 +2,99 @@
 delete from course where id<100;
 
 INSERT INTO course (name, created_date , cost)
-VALUES ('java', 1563740760, 2500);
+VALUES ('java', '1999-01-08 04:05:06', 2500);
 INSERT INTO course (name, created_date , cost)
-VALUES ('php', 1563740780, 2300);
+VALUES ('php', '1999-01-08 04:05:06', 2300);
 INSERT INTO course (name, created_date , cost)
-VALUES ('html', 1563740800, 2000);
+VALUES ('html', '1999-01-08 04:05:06', 2000);
 
 
 
 INSERT INTO section (name, created_date , course_id)
-VALUES ('jvm', 1563741760, 1);
+VALUES ('jvm', '1999-01-08 04:05:06', 1);
 INSERT INTO section (name, created_date , course_id)
-VALUES ('spring', 1563741780, 1);
+VALUES ('spring', '1999-01-08 04:05:06', 1);
 INSERT INTO section (name, created_date , course_id)
-VALUES ('IDEA', 1563741800, 1);
-
-INSERT INTO section (name, created_date , course_id)
-VALUES ('english', 1563742760, 2);
-INSERT INTO section (name, created_date , course_id)
-VALUES ('computer', 1563742780, 2);
-INSERT INTO section (name, created_date , course_id)
-VALUES ('git', 1563742800, 2);
+VALUES ('IDEA', '1999-01-08 04:05:06', 1);
 
 INSERT INTO section (name, created_date , course_id)
-VALUES ('notepad+', 1563741760, 3);
+VALUES ('english', '1999-01-08 04:05:06', 2);
 INSERT INTO section (name, created_date , course_id)
-VALUES ('css', 1563741780, 3);
+VALUES ('computer', '1999-01-08 04:05:06', 2);
 INSERT INTO section (name, created_date , course_id)
-VALUES ('js', 1563741800, 3);
+VALUES ('git', '1999-01-08 04:05:06', 2);
+
+INSERT INTO section (name, created_date , course_id)
+VALUES ('notepad+', '1999-01-08 04:05:06', 3);
+INSERT INTO section (name, created_date , course_id)
+VALUES ('css', '1999-01-08 04:05:06', 3);
+INSERT INTO section (name, created_date , course_id)
+VALUES ('js', '1999-01-08 04:05:06', 3);
 
 
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('download', 1563741760, 'some content',1);
+VALUES ('download', '1999-01-08 04:05:06', 'some content',1);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('installing', 1563741780, 'some content',1);
+VALUES ('installing', '1999-01-08 04:05:06', 'some content',1);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('use', 1563741800, 'some content',1);
+VALUES ('use', '1999-01-08 04:05:06', 'some content',1);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('spring-app', 1563742760, 'some content', 2);
+VALUES ('spring-app', '1999-01-08 04:05:06', 'some content', 2);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('mvc', 1563742780, 'some content', 2);
+VALUES ('mvc', '1999-01-08 04:05:06', 'some content', 2);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('spring-boot', 1563742800, 'some content', 2);
+VALUES ('spring-boot', '1999-01-08 04:05:06', 'some content', 2);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('run', 1563741760, 'some content', 3);
+VALUES ('run', '1999-01-08 04:05:06', 'some content', 3);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('debug', 1563741780, 'some content', 3);
+VALUES ('debug', '1999-01-08 04:05:06', 'some content', 3);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('deploy', 1563741800, 'some content', 3);
+VALUES ('deploy', '1999-01-08 04:05:06', 'some content', 3);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('read', 1563741760, 'some content', 4);
+VALUES ('read', '1999-01-08 04:05:06', 'some content', 4);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('speak', 1563741780, 'some content', 4);
+VALUES ('speak', '1999-01-08 04:05:06', 'some content', 4);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('listen', 1563741800, 'some content', 4);
+VALUES ('listen', '1999-01-08 04:05:06', 'some content', 4);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('EVM', 1563742760, 'some content', 5);
+VALUES ('EVM', '1999-01-08 04:05:06', 'some content', 5);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('it', 1563742780, 'some content', 5);
+VALUES ('it', '1999-01-08 04:05:06', 'some content', 5);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('www', 1563742800, 'some content', 5);
+VALUES ('www', '1999-01-08 04:05:06', 'some content', 5);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('git bush', 1563741760, 'some content', 6);
+VALUES ('git bush', '1999-01-08 04:05:06', 'some content', 6);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('cmd', 1563741780, 'some content', 6);
+VALUES ('cmd', '1999-01-08 04:05:06', 'some content', 6);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('rebase', 1563741800, 'some content', 6);
+VALUES ('rebase', '1999-01-08 04:05:06', 'some content', 6);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('note', 1563741760, 'some content', 7);
+VALUES ('note', '1999-01-08 04:05:06', 'some content', 7);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('use notepad', 1563741780, 'some content', 7);
+VALUES ('use notepad', '1999-01-08 04:05:06', 'some content', 7);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('development', 1563741800, 'some content', 7);
+VALUES ('development', '1999-01-08 04:05:06', 'some content', 7);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('css1', 1563742760, 'some content', 8);
+VALUES ('css1', '1999-01-08 04:05:06', 'some content', 8);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('css2', 1563742780, 'some content', 8);
+VALUES ('css2', '1999-01-08 04:05:06', 'some content', 8);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('css3', 1563742800, 'some content', 8);
+VALUES ('css3', '1999-01-08 04:05:06', 'some content', 8);
 
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('js1', 1563741760, 'some content', 9);
+VALUES ('js1', '1999-01-08 04:05:06', 'some content', 9);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('js2', 1563741780, 'some content', 9);
+VALUES ('js2', '1999-01-08 04:05:06', 'some content', 9);
 INSERT INTO lesson (name, created_date , content, section_id)
-VALUES ('js3', 1563741800, 'some content', 9);
+VALUES ('js3', '1999-01-08 04:05:06', 'some content', 9);
 
 
 

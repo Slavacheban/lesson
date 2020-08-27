@@ -56,9 +56,4 @@ public class CourseController {
         service.createCourse(transformer.buildEntity(course));
         return "redirect:/course/list";
     }
-
-//    @PostMapping("/search")
-//    public List<Course> getAllBySpecification(@RequestBody SpecificationRequest request) {
-//        return transformer.buildCourses(service.findAll(request));
-//    }
 }
